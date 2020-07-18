@@ -14,16 +14,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rahuldahal/extended-normalize.git"
+    "url": "git+https://github.com/rahuldahal/extended-normalize.css.git"
   },
   "keywords": [
-    "extended-normalize",
+  	"normalize",
+    "extended-normalize.css",
+    "normalize.css",
     "css"
   ],
   "author": "Rahul Dahal",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rahuldahal/extended-normalize/issues"
+    "url": "https://github.com/rahuldahal/extended-normalize.css/issues"
   },
-  "homepage": "https://github.com/rahuldahal/extended-normalize#readme"
+  "homepage": "https://github.com/rahuldahal/extended-normalize.css#readme"
 }
