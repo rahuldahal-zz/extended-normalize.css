@@ -18,19 +18,19 @@ npm install --save extended-normalize.css
 **include in your "html" file, on the "head" tag**
 
 ```sh
-<link rel="stylesheet" href="https://rawcdn.githack.com/rahuldahal/extended-normalize.css/b27dbe456a57d7d1f0f9558e1eb1e3ca4d9b18d7/extended-normalize.min.css">
+<link rel="stylesheet" href="https://rawcdn.githack.com/rahuldahal/extended-normalize.css/72f50934a03d13996c9a407ff1765855a11afff3/extended-normalize.min.css">
 ```
 
 **import in your "main" css file**
 
 ```sh
-@import url("https://rawcdn.githack.com/rahuldahal/extended-normalize.css/b27dbe456a57d7d1f0f9558e1eb1e3ca4d9b18d7/extended-normalize.min.css");
+@import url("https://rawcdn.githack.com/rahuldahal/extended-normalize.css/72f50934a03d13996c9a407ff1765855a11afff3/extended-normalize.min.css");
 ```
 
 **Download**
 
-*minified*: https://rawcdn.githack.com/rahuldahal/extended-normalize.css/b27dbe456a57d7d1f0f9558e1eb1e3ca4d9b18d7/extended-normalize.min.css <br />
-*un-minified*: https://raw.githack.com/rahuldahal/extended-normalize.css/master/extended-normalize.css
+*minified*: https://rawcdn.githack.com/rahuldahal/extended-normalize.css/72f50934a03d13996c9a407ff1765855a11afff3/extended-normalize.min.css <br />
+*un-minified*: https://rawcdn.githack.com/rahuldahal/extended-normalize.css/72f50934a03d13996c9a407ff1765855a11afff3/extended-normalize.css
 
 ## What does it do?
 
