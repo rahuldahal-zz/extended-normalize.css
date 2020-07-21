@@ -36,4 +36,4 @@ npm install --save extended-normalize.css
 - Explains what code does using detailed comments.
 
 **Author**
-[Rahul Dahal](http://rahudahal.com.np)
+[Rahul Dahal](http://rahuldahal.com.np)
