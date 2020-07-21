@@ -16,16 +16,16 @@ npm install --save extended-normalize.css
 **Or, include in your "html" file, on the "head" tag**
 
 ```sh
-<link rel="stylesheet" href="https://rawcdn.githack.com/rahuldahal/extended-normalize.css/72f50934a03d13996c9a407ff1765855a11afff3/extended-normalize.min.css">
+<link rel="stylesheet" href="https://rawcdn.githack.com/rahuldahal/extended-normalize.css/168e950da0257dc0c4a04d20d834d558636aba47/extended-normalize.min.css">
 ```
 
 **Or, import in your "main" css file**
 
 ```sh
-@import url("https://rawcdn.githack.com/rahuldahal/extended-normalize.css/72f50934a03d13996c9a407ff1765855a11afff3/extended-normalize.min.css");
+@import url("https://rawcdn.githack.com/rahuldahal/extended-normalize.css/168e950da0257dc0c4a04d20d834d558636aba47/extended-normalize.min.css");
 ```
 
-**Or, view [Raw](https://rawcdn.githack.com/rahuldahal/extended-normalize.css/72f50934a03d13996c9a407ff1765855a11afff3/extended-normalize.css)**
+**Or, view [Raw](https://rawcdn.githack.com/rahuldahal/extended-normalize.css/168e950da0257dc0c4a04d20d834d558636aba47/extended-normalize.min.css)**
 
 ## What does it do?
 
