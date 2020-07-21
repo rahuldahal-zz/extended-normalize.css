@@ -6,7 +6,6 @@
   "style": "extended-normalize.min.css",
   "files": [
     "LICENSE.md",
-    "extended-normalize.css",
     "extended-normalize.min.css"
   ],
   "scripts": {
@@ -28,7 +27,5 @@
     "url": "https://github.com/rahuldahal/extended-normalize.css/issues"
   },
   "homepage": "https://github.com/rahuldahal/extended-normalize.css#readme",
-  "dependencies": {
-    "normalize.css": "^8.0.1"
-  }
+  "dependencies": {}
 }
