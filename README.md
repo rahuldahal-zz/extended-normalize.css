@@ -7,21 +7,30 @@
 
 ## How to use ?
 
-**NPM**
+**Either, use NPM**
 
 ```sh
 npm install --save extended-normalize.css
 ```
 
-**Or, include in your "html" file, on the "head" tag**
+_Then, in your main.js file,_
 
-```sh
-<link rel="stylesheet" href="https://rawcdn.githack.com/rahuldahal/extended-normalize.css/168e950da0257dc0c4a04d20d834d558636aba47/extended-normalize.min.css">
+```javascript
+import "extended-normalize.css";
+```
+
+**Or, include this inside the "html" file, on the "head" tag**
+
+```html
+<link
+  rel="stylesheet"
+  href="https://rawcdn.githack.com/rahuldahal/extended-normalize.css/168e950da0257dc0c4a04d20d834d558636aba47/extended-normalize.min.css"
+/>
 ```
 
 **Or, import in your "main" css file**
 
-```sh
+```css
 @import url("https://rawcdn.githack.com/rahuldahal/extended-normalize.css/168e950da0257dc0c4a04d20d834d558636aba47/extended-normalize.min.css");
 ```
 
