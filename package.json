@@ -1,12 +1,12 @@
 {
   "name": "extended-normalize.css",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "CSS normalize with basic additional styles",
-  "main": "extended-normalize.min.css",
-  "style": "extended-normalize.min.css",
+  "main": "extended-normalize.css",
+  "style": "extended-normalize.css",
   "files": [
     "LICENSE.md",
-    "extended-normalize.min.css"
+    "extended-normalize.css"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,13 +18,20 @@
   "keywords": [
     "normalize",
     "extended-normalize.css",
+    "extended",
     "normalize.css",
     "css"
   ],
-  "author": "Rahul Dahal",
+  "author": {
+    "name": "Rahul Dahal",
+    "website": "https://rahuldahal.com.np"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/rahuldahal/extended-normalize.css/issues"
   },
-  "homepage": "https://github.com/rahuldahal/extended-normalize.css#readme"
+  "homepage": "https://github.com/rahuldahal/extended-normalize.css#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
 }

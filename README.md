@@ -3,7 +3,7 @@
 > CSS normalize with basic additional styles
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-green)](https://github.com/rahuldahal/extended-normalize.css/blob/master/LICENSE)
-[![GitHub release](https://img.shields.io/badge/release-v1.0.4-blue)](https://www.npmjs.com/package/extended-normalize.css)
+[![GitHub release](https://img.shields.io/badge/release-v1.1.2-blue)](https://www.npmjs.com/package/extended-normalize.css)
 
 ## How to use ?
 
@@ -24,17 +24,17 @@ import "extended-normalize.css";
 ```html
 <link
   rel="stylesheet"
-  href="https://rawcdn.githack.com/rahuldahal/extended-normalize.css/168e950da0257dc0c4a04d20d834d558636aba47/extended-normalize.min.css"
+  href="https://rawcdn.githack.com/rahuldahal/extended-normalize.css/168e950da0257dc0c4a04d20d834d558636aba47/extended-normalize.css"
 />
 ```
 
 **Or, import in your "main" css file**
 
 ```css
-@import url("https://rawcdn.githack.com/rahuldahal/extended-normalize.css/168e950da0257dc0c4a04d20d834d558636aba47/extended-normalize.min.css");
+@import url("https://rawcdn.githack.com/rahuldahal/extended-normalize.css/168e950da0257dc0c4a04d20d834d558636aba47/extended-normalize.css");
 ```
 
-**Or, view [Raw](https://rawcdn.githack.com/rahuldahal/extended-normalize.css/168e950da0257dc0c4a04d20d834d558636aba47/extended-normalize.min.css)**
+**Or, view [Raw](https://rawcdn.githack.com/rahuldahal/extended-normalize.css/168e950da0257dc0c4a04d20d834d558636aba47/extended-normalize.css)**
 
 ## What does it do?
 
