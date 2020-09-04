@@ -2,13 +2,8 @@
 
 @import "./node_modules/normalize.css/normalize.css";
 
-/* 
-*
-* Author: Rahul Dahal
-* License: MIT
-* Released: 2020
-*
-**/
+/* "extension" starts from here... */
+
 *,
 *::before,
 *::after {
@@ -65,7 +60,7 @@ h4 {
   font-weight: 400;
 }
 
-/*ends here*/
+
 /*setting up some "breathing-space" between lines*/
 p,
 pre,
@@ -127,6 +122,7 @@ table tr:nth-child(even) {
 }
 
 /*table styles end here*/
+
 /*making the input, button, and other form fields look neat and easy to grab "focus"*/
 input,
 select,
@@ -256,6 +252,7 @@ mark:hover::after {
 }
 
 /*<mark> style ends here*/
+
 /*creating the "breathing-space" between list-items*/
 ul,
 ol {

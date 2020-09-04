@@ -3,7 +3,7 @@
 > CSS normalize with basic additional styles
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-green)](https://github.com/rahuldahal/extended-normalize.css/blob/master/LICENSE)
-[![GitHub release](https://img.shields.io/badge/release-v1.1.2-blue)](https://www.npmjs.com/package/extended-normalize.css)
+[![GitHub release](https://img.shields.io/badge/release-v2.0.0-blue)](https://www.npmjs.com/package/extended-normalize.css)
 
 ## How to use ?
 
