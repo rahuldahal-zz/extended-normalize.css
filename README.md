@@ -3,7 +3,7 @@
 > CSS normalize with basic additional styles
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-green)](https://github.com/rahuldahal/extended-normalize.css/blob/master/LICENSE)
-[![GitHub release](https://img.shields.io/badge/release-v2.0.0-blue)](https://www.npmjs.com/package/extended-normalize.css)
+[![GitHub release](https://img.shields.io/badge/release-v2.1.0-blue)](https://www.npmjs.com/package/extended-normalize.css)
 
 ## How to use ?
 
@@ -13,7 +13,7 @@
 npm install --save extended-normalize.css
 ```
 
-_Then, in your main.js file,_
+_Then, in your "main" js file,_
 
 ```javascript
 import "extended-normalize.css";
@@ -24,17 +24,17 @@ import "extended-normalize.css";
 ```html
 <link
   rel="stylesheet"
-  href="https://rawcdn.githack.com/rahuldahal/extended-normalize.css/168e950da0257dc0c4a04d20d834d558636aba47/extended-normalize.css"
+  href="https://unpkg.com/extended-normalize.css@2.1.0/extended-normalize.css"
 />
 ```
 
 **Or, import in your "main" css file**
 
 ```css
-@import url("https://rawcdn.githack.com/rahuldahal/extended-normalize.css/168e950da0257dc0c4a04d20d834d558636aba47/extended-normalize.css");
+@import url("https://unpkg.com/extended-normalize.css@2.1.0/extended-normalize.css");
 ```
 
-**Or, view [Raw](https://rawcdn.githack.com/rahuldahal/extended-normalize.css/168e950da0257dc0c4a04d20d834d558636aba47/extended-normalize.css)**
+**Or, view [Raw](https://unpkg.com/extended-normalize.css@2.1.0/extended-normalize.css)**
 
 ## What does it do?
 
