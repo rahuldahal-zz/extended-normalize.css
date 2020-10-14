@@ -35,7 +35,7 @@ Plus, the default style on buttons, form-fields, etc. are not "neat".
 
 ## A quick demo...
 
-![HTML file with and without extended-normalize.css applied](https://github.com/rahuldahal/extended-normalize.css/blob/master/extended-normalize-demo.gif);
+![HTML file with and without extended-normalize.css applied](https://raw.githubusercontent.com/rahuldahal/extended-normalize.css/master/extended-normalize-demo.gif);
 
 ## How to use ?
 
