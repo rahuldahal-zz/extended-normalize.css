@@ -3,7 +3,7 @@
 > CSS normalize with basic additional styles
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-green)](https://github.com/rahuldahal/extended-normalize.css/blob/master/LICENSE)
-[![GitHub release](https://img.shields.io/badge/release-v2.1.0-blue)](https://www.npmjs.com/package/extended-normalize.css)
+[![GitHub release](https://img.shields.io/badge/release-v2.1.1-blue)](https://www.npmjs.com/package/extended-normalize.css)
 
 ## Why extended-normalize.css ?
 
@@ -35,7 +35,7 @@ Plus, the default style on buttons, form-fields, etc. are not "neat".
 
 ## A quick demo...
 
-[HTML file with and without extended-normalize.css applied](https://github.com/rahuldahal/extended-normalize.css/blob/master/extended-normalize-demo.gif);
+![HTML file with and without extended-normalize.css applied](https://github.com/rahuldahal/extended-normalize.css/blob/master/extended-normalize-demo.gif);
 
 ## How to use ?
 
