@@ -86,9 +86,12 @@ video {
 
 /*make the "kbd" look like a "keyboard key" */
 kbd {
+  display: inline-block;
+  margin: 0.5em;
   background-color: grey;
   color: #fff;
   padding: 0.25rem;
+  border: 1px solid var(--primaryTextColor);
   border-radius: 0.25rem;
   -webkit-box-shadow: 0 3px 6px -3px rgba(0, 0, 0, 0.4);
   box-shadow: 0 3px 6px -3px rgba(0, 0, 0, 0.4);
@@ -187,10 +190,9 @@ button:active {
 
 [type="submit"]:disabled,
 button:disabled {
-  -webkit-transform: translateY(0);
   transform: translateY(0);
-  background-color: grey;
-  -webkit-box-shadow: none;
+  background-color: #c3c3c3;
+  color: #818080;
   box-shadow: none;
   cursor: not-allowed;
 }
