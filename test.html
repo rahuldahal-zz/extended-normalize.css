@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="extended-normalize.css" />
+  </head>
+  <body>
+    <div class="container">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure
+        <a href="">dolor in reprehenderit</a> in voluptate velit esse cillum
+        dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+        <mark>cupidatat non</mark> proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      </p>
+
+
+      <table>
+        <tr>
+          <th>Marks</th>
+          <th>Percentage</th>
+        </tr>
+        <tr>
+          <td>98</td>
+          <td>89</td>
+        </tr>
+        <tr>
+          <td>98</td>
+          <td>89</td>
+        </tr>
+        <tr>
+          <td>98</td>
+          <td>89</td>
+        </tr>
+      </table>
+
+            <kbd style="display: inline-block; margin-top: 1rem;">Ctrl</kbd>+<kbd>R</kbd>
+
+      <dl>
+        <dt>Description Title</dt>
+        <dd>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </dd>
+      </dl>
+
+      <button type="submit" disabled="true">Disabled Button</button>
+
+      <input type="hidden" name="" />
+
+      <p>some random paragraph is here and this is an awesome para. as well.</p>
+      <p>The <abbr title="central Pu">CPU</abbr></p>
+
+      <h1>Heading 1</h1>
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+
+      <input type="text" name="" />
+      <input type="text" name="" placeholder="placeholder text here..." />
+      <textarea></textarea>
+      <select>
+        <option>option 1</option>
+        <option>option 2</option>
+      </select>
+      <input type="radio" name="" />
+      <label>name</label>
+      <input type="submit" name="" />
+      <button type="button">Heyyy</button>
+      <input type="checkbox" name="" />
+      <input type="checkbox" name="" />
+      <input type="date" name="" />
+      <input type="time" name="" />
+      <input type="range" name="" />
+
+      <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+      </ul>
+
+      <ol>
+        <li>item 1</li>
+        <li>
+          <ul>
+            <li>nested #1</li>
+            <li>nested #2</li>
+          </ul>
+        </li>
+        <li>item 3</li>
+      </ol>
+
+      <form>
+        <fieldset>
+          <label>name</label>
+          <input type="text" name="" />
+        </fieldset>
+        <fieldset>
+          <label>email</label>
+          <input type="email" name="" placeholder="email please" />
+        </fieldset>
+        <fieldset>
+          <label>name</label>
+          <input type="text" name="" />
+        </fieldset>
+        <fieldset>
+          <input type="checkbox" name="" />
+          <label>pop</label>
+          <input type="checkbox" name="" />
+          <label>pop</label>
+        </fieldset>
+        <input type="submit" name="" />
+        <button>Submit me</button>
+      </form>
+    </div>
+
+
+    <script type="text/javascript">
+      function range(from, to, step = 1) {
+        let array = [];
+        if (step > 0) {
+          for (let i = from; i <= to; i += step) {
+            array.push(i);
+          }
+        } else {
+          for (let i = from; i >= to; i += step) {
+            array.push(i);
+          }
+        }
+        return array;
+      }
+
+      function sum(array) {
+        let sum = 0;
+        for (let num of array) {
+          sum += num;
+        }
+        console.log(sum);
+      }
+
+      sum(range(1, 10));
+    </script>
+  </body>
+</html>
