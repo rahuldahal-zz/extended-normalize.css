@@ -1,9 +1,9 @@
 # extended-normalize.css
 
-> CSS normalize with basic additional styles
+![GitHub license](https://img.shields.io/github/license/rahuldahal/extended-normalize.css)
+![GitHub release](https://img.shields.io/github/package-json/v/rahuldahal/extended-normalize.css/master)
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-green)](https://github.com/rahuldahal/extended-normalize.css/blob/master/LICENSE)
-[![GitHub release](https://img.shields.io/badge/release-v2.1.1-blue)](https://www.npmjs.com/package/extended-normalize.css)
+> CSS normalize with basic additional styles
 
 ## Why extended-normalize.css ?
 
