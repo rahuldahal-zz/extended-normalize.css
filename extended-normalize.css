@@ -57,7 +57,7 @@ h3 {
 
 h4 {
   font-size: 1.3rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 
@@ -160,37 +160,29 @@ button {
   border: none;
   border-radius: 0.3rem;
   padding: 0.5rem 1rem;
-  width: -webkit-max-content !important;
-  width: -moz-max-content !important;
-  width: max-content !important;
+  width: max-content;
   font-size: 1rem;
   display: inline-block;
   cursor: pointer;
-  -webkit-transition: -webkit-transform 0.3s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
-  transition: -webkit-transform 0.3s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
   transition: transform 0.3s ease-in-out, box-shadow 0.2s ease-in-out;
-  transition: transform 0.3s ease-in-out, box-shadow 0.2s ease-in-out, -webkit-transform 0.3s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
 }
 
 [type="submit"]:hover,
 button:hover,
 [type="submit"]:focus,
 button:focus {
-  -webkit-transform: translateY(-5px);
-  transform: translateY(-5px);
-  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+  transform: scaleX(1.1) translateY(0.25rem);
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
 }
 
 [type="submit"]:active,
 button:active {
-  -webkit-transform: scale(0.9);
   transform: scale(0.9);
 }
 
 [type="submit"]:disabled,
 button:disabled {
-  transform: translateY(0);
+  transform: scaleX(0) translateY(0);
   background-color: #c3c3c3;
   color: #818080;
   box-shadow: none;
@@ -217,8 +209,6 @@ fieldset > input {
 
 fieldset [type="radio"],
 fieldset [type="checkbox"] {
-  width: -webkit-max-content;
-  width: -moz-max-content;
   width: max-content;
 }
 
@@ -240,16 +230,11 @@ mark::after {
   width: 100%;
   height: 0.5rem;
   background-image: linear-gradient(45deg, rgba(238, 238, 48, 0.6), rgba(255, 208, 0, 0.8));
-  -webkit-transform-origin: bottom;
   transform-origin: bottom;
-  -webkit-transition: -webkit-transform 0.3s ease-in-out;
-  transition: -webkit-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out;
-  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
 
 mark:hover::after {
-  -webkit-transform: scaleY(2);
   transform: scaleY(2);
 }
 
