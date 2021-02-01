@@ -17,15 +17,15 @@
   --primaryTextColor: #333;
   --primaryBgColor: #fefcfc;
   --accentColor: #286ce9;
-  --bodyFont: arial, verdana, Tahoma, sans-serif;
-  --headingFont: "Lucida Bright", Georgia, serif;
+  --bodyFont: arial;
+  --headingFont: "Lucida Bright";
   line-height: 1.25; /*125% of the font-size*/
 }
 
 body {
   color: var(--primaryTextColor);
   background-color: var(--primaryBgColor);
-  font-family: var(--bodyFont);
+  font-family: var(--bodyFont), arial, verdana, Tahoma, sans-serif;
 }
 
 /*headings typography*/
@@ -36,40 +36,40 @@ h4,
 h5,
 h6 {
   margin: 1.3rem 0;
-  font-family: var(--headingFont);
+  font-family: var(--headingFont), "Lucida Bright", Georgia, serif;
 }
 
 h1 {
   font-size: 6rem;
   letter-spacing: -1.5px;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 h2 {
   font-size: 3.75rem;
   letter-spacing: -0.5px;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 h3 {
   font-size: 3rem;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 h4 {
   font-size: 2.125rem;
-  font-weight: medium;
+  font-weight: 600;
 }
 
 h5{
   font-size: 1.5rem;
-  font-weight: medium;
+  font-weight: 500;
 }
 
 h6{
   font-size: 1.25rem;
   letter-spacing: 0.5px;
-  font-weight: medium;
+  font-weight: 500;
 }
 
 
@@ -175,7 +175,7 @@ button {
   font-size: 1rem;
   display: inline-block;
   cursor: pointer;
-  transition: transform 0.3s ease-in-out, box-shadow 0.2s ease-in-out;
+  transition: transform 0.3s linear;
 }
 
 [type="submit"]::after, button::after, [type="reset"]::after{
@@ -189,13 +189,6 @@ button {
   box-shadow: 0 6px 12px rgba(0, 0, 0, .4);
   transition: opacity 0.3s ease-in-out;
 	
-}
-
-[type="submit"]:hover,
-button:hover,
-[type="submit"]:focus,
-button:focus {
-  transform: scaleX(1.1);
 }
 
 [type="submit"]:hover::after, button:hover::after, [type="reset"]:hover::after{
