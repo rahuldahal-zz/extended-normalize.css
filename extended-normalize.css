@@ -12,20 +12,20 @@
   box-sizing: border-box;
 }
 
-/* can easily override the --customProperties or, change them with JS*/
+/* can easily override the --custom-properties or, change them with JS*/
 :root {
-  --primaryTextColor: #333;
-  --primaryBgColor: #fefcfc;
-  --accentColor: #286ce9;
-  --bodyFont: arial;
-  --headingFont: "Lucida Bright";
+  --primary-text-color: #333;
+  --primary-background-color: #fefcfc;
+  --accent-color: #286ce9;
+  --body-font: arial;
+  --heading-font: "Lucida Bright";
   line-height: 1.25; /*125% of the font-size*/
 }
 
 body {
-  color: var(--primaryTextColor);
-  background-color: var(--primaryBgColor);
-  font-family: var(--bodyFont), arial, verdana, Tahoma, sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--primary-background-color);
+  font-family: var(--body-font), arial, verdana, Tahoma, sans-serif;
 }
 
 /*headings typography*/
@@ -36,7 +36,7 @@ h4,
 h5,
 h6 {
   margin: 1.3rem 0;
-  font-family: var(--headingFont), "Lucida Bright", Georgia, serif;
+  font-family: var(--heading-font), "Lucida Bright", Georgia, serif;
 }
 
 h1 {
@@ -85,7 +85,7 @@ p::first-letter {
 
 /*the default "purple" color is not so cool*/
 a {
-  color: var(--accentColor);
+  color: var(--accent-color);
 }
 
 /*restrict overflow from parent */
@@ -102,7 +102,7 @@ kbd {
   background-color: grey;
   color: #fff;
   padding: 0.25rem;
-  border: 1px solid var(--primaryTextColor);
+  border: 1px solid var(--primary-text-color);
   border-radius: 0.25rem;
   box-shadow: 0 3px 6px -3px rgba(0, 0, 0, 0.4);
 }
@@ -121,7 +121,7 @@ table,
 th,
 tr,
 td {
-  border: 2px solid var(--primaryTextColor);
+  border: 2px solid var(--primary-text-color);
   border-collapse: collapse;
 }
 
@@ -149,7 +149,7 @@ textarea {
 input,
 textarea,
 select {
-  border: 1px solid var(--primaryTextColor);
+  border: 1px solid var(--primary-text-color);
   border-radius: 0.3rem;
 }
 
@@ -160,14 +160,14 @@ select {
 
 input:focus,
 textarea:focus {
-  border: 1px solid var(--accentColor);
+  border: 1px solid var(--accent-color);
 }
 
 [type="submit"],
 button {
   position: relative;
-  background-color: var(--accentColor);
-  color: var(--primaryBgColor);
+  background-color: var(--accent-color);
+  color: var(--primary-background-color);
   border: none;
   border-radius: 0.5em;
   padding: 0.5rem 1rem;
@@ -189,10 +189,6 @@ button::after {
   border-radius: 0.5em;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
   transition: opacity 0.3s ease-in-out;
-}
-
-button:hover::after {
-  opacity: 1;
 }
 
 [type="submit"]:active,
